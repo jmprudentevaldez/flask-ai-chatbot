@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is the item in stock?",
+        "Do you have this item available?",
+        "Is this product currently available?"
+      ],
+      "responses": [
+        "Let me check our inventory for you.",
+        "Yes, that item is currently in stock.",
+        "We have plenty of that item available."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "What's the price of this item?",
+        "Can you tell me the price?"
+      ],
+      "responses": [
+        "The price is $X.",
+        "It costs $X.",
+        "You can purchase it for $X."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Can you check my order status?",
+        "What's the status of my order?",
+        "I'd like to know the status of my purchase."
+      ],
+      "responses": [
+        "Sure, could you please provide your order number?",
+        "Let me look that up for you. What's your order number?",
+        "I'll check on that. Can you give me your order details?"
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "I need help with something.",
+        "Can I speak to customer service?",
+        "I have a question about my order."
+      ],
+      "responses": [
+        "Of course, our customer service team is here to assist you.",
+        "Sure, let me connect you with our customer service representative.",
+        "No problem, I'll transfer you to our customer service department."
+      ]
+    },
+    {
+      "tag": "website_support",
+      "patterns": [
+        "I'm having trouble navigating your website.",
+        "Your website is not working properly.",
+        "I can't find what I'm looking for on your website."
+      ],
+      "responses": [
+        "I'm sorry to hear that. Let me provide you with some assistance.",
+        "We apologize for the inconvenience. I'll do my best to help you.",
+        "Thank you for bringing this to our attention. Let me assist you with navigating our website."
+      ]
+    }
+  ]
+}
